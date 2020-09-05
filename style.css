@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px;
+    background: White;
+}
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px;
+}
+h3 {
+    text-align: center;
+    font-size: 0.875em;
+}
+body {
+    background: image("img_Background.jpg");
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border: 3px solid green;
+  }
+  div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  /* The animation code */
+@keyframes colorswitch {
+    from {background-color: lightblue;}
+    to {background-color: blue;}
+  }
+  
+  /* The element to apply the animation to */
+  body {
+    background-color: blue;
+    animation-name: colorswitch;
+    animation-duration: 10s;
+  }
+  p {
+      text-align: center;
+      width: 200px;
+  }
